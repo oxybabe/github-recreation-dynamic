@@ -1,0 +1,54 @@
+
+aside {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+   
+}
+
+.profilepic {
+   display: flex;
+   display: table-row;
+   width: 25%;
+   
+      
+}
+.profilepic img {
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+
+}
+aside button {
+    background-color: #161b22;
+    color: white;
+    border-radius: 5px;
+   font-family: var(--primary-font-family);
+   font-size: 12px;
+   width: 225px;
+   
+}
+aside h1 {
+    font: 18px var(--primary-font-family);
+    color: white;
+    font-weight: var(--primary-font-family);
+}
+aside h2 {
+    font: 18px var(--primary-font-family);
+    color: #e6edf3;
+    font-weight: 100;
+}
+aside h3 {
+    color: white;
+    font-family: var(--primary-font-family) 10px;
+    font-weight: 200;
+}
+aside p {
+    font: var(--primary-font-family);
+    color: white;
+    font-weight: 1;
+    font-size: 12px;
+    padding: 8px;
+    border-bottom: 1px #21262d solid;
+    
+}

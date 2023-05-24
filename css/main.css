@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 65%;
+  height: 100%;
+}
+
+ul {
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+li a {
+  text-decoration: none;
+  color: #2f81f7;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--primary-font-family);
+}
+li button {
+  font-size: 12px;
+  border-radius: 5px;
+  float: right;
+  color: #585859;
+  background-color: #21262d;
+}
+main img {
+  width: 10px;
+  height: 10px;
+}
+section {
+  width: 74%;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  border-bottom: 1px #21262d solid;
+  font-family: var(--primary-font-family);
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-top: #21262d 1px solid;
+}
+.public {
+  display: flex;
+  display: inline;
+  font-family: var(--primary-font-family);
+  color: #7d8590;
+  font-size: 12px;
+  border: 1px solid #585859;
+  padding: 0 7px;
+  border-radius: 2em;
+  font-weight: 500;
+}
+
+/* section ul {
+  background-color: orchid;
+  height: 100vh;
+  width: 100%;
+  flex: wrap;
+  margin: 200px;
+  margin-left: 100%;
+ 
+}
+
+ul button {
+  position: relative;
+  display: inline-flex;
+  font-size: 12px;
+  margin-left: 200%;
+  border-radius: 5px;
+} */
