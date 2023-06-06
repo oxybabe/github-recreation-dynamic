@@ -16,7 +16,6 @@ html {
 
 body {
   background-color: var(--primary-black);
- 
 }
 
 input {
@@ -32,19 +31,17 @@ input {
   font-size: 14px;
   font-family: var(--primary-font-family);
   padding-bottom: 15px;
-  
-  
- 
 }
 select {
   background-color: #161b22;
   font-size: 12px;
   color: #f0f6fc;
   font-family: var(--primary-font-family);
- 
 }
 button {
   background-color: #0d1116;
   border-radius: 5px;
   color: white;
 }
+
+

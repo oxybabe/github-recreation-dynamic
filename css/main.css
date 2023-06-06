@@ -14,6 +14,7 @@ ul {
   flex-direction: row;
   padding: 0;
   margin: 0;
+  /* color: white; */
 }
 li a {
   text-decoration: none;
@@ -56,6 +57,13 @@ li {
   padding: 0 7px;
   border-radius: 2em;
   font-weight: 500;
+}
+/* .repositories {
+  color: white;
+} */
+#repos-list {
+  color: white;
+  display: inline-block;
 }
 
 /* section ul {
